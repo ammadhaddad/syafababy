@@ -1,0 +1,559 @@
+:root{
+    /* color */
+    --primarycolor : #F7A8C8 ;
+    --secondarycolor : #FF5DA4 ;
+    --headingcolor : #EFCFDE;
+    --fontcolor : #4F3423;
+    --font1color : #FFF500;
+    --backgrcolor : #f8dbe7;
+
+    /* font */
+    --Amaticfont : 'Amatic SC', cursive;
+    --Suefont : 'Sue Ellen Francisco', ursive;
+    --Workfont : 'Work Sans', sans-serif;
+    --Averiafont : 'Averia Sans Libre', cursive;
+
+}
+
+body{
+    font-family: var(--Workfont);
+    background-color:var(--backgrcolor);
+}
+.heading{
+    font-family: var(--Suefont);
+    font-size: 46px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight: 300;
+}
+.section-margin{
+    margin-top: 125px;
+}
+/* Navbar */
+.navbar{
+    background-color: var(--primarycolor);
+    margin-top: 10px;
+    border-radius: 25px !important;
+}
+.navbar-brand{
+    color: var(--font1color)!important;
+    font-size: 20px;
+    font-family: var(--Averiafont);
+    font-weight: 900;
+}
+
+.navbar-brand span{
+    color: var(--fontcolor);
+}
+.navbar-brand img{
+    height: 50px;
+}
+.nav-link.active{
+    color: var(--font1color) !important;
+    font-weight: 600;
+}
+.nav-link{
+    color: black !important;
+    font-size: 18px;
+    
+}
+.icon-home i{
+    font-size: 2rem;
+    color: var(--secondarycolor);
+}
+
+/*login page*/
+#loginpage{
+    background-color: white;
+    border-radius: 25px;
+}
+.nav-link-login{
+    color: var(--font1color) !important;
+    font-weight: 500;
+    outline: none;
+}
+
+.formlogin{
+    width: 365px;   
+    height: 530px;
+    background: #fff;
+    overflow: hidden;
+}
+.formlogin{
+    position: relative;
+    border-radius: 25px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #FFDDEE;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 13px;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icon{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icon img{
+    width: 30px;
+    border-radius: 50% ;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width:100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+    outline: none;
+    background: transparent;
+}
+
+.submid-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    color: black;
+    text-decoration: none;
+    justify-content: center ;
+    border: 0;
+    outline: none;
+    border-radius: 30px !important;
+}
+.detail-btn{
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    border: 0;
+    outline: none;
+    border-radius: 30px !important;
+}
+.tambah-btn{
+    width: 15%;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    border-radius: 30px !important;
+}
+.tambah-btn:hover{
+    color: black;
+}
+
+.profile-btn{
+    width: 30%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    color: black;
+    text-decoration: none;
+    text-align: center ;
+    border: 0;
+    outline: none;
+    border-radius: 30px !important;
+}
+.profile-btn:hover{
+    color: black;
+}
+.name-customer{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.name-customer:hover{
+    color: black;
+}
+.check-box{
+    margin: 30px 10px 30px 0px;
+}
+.input-group span{
+    color: #777;
+    font-size: 12px;
+    bottom: 70px;
+    left: 15px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left:450px;
+}
+
+/* loginpage-kiri */
+
+.kotak1{  
+    height: 545px;
+    width: 380px;
+    background: #fff !important;
+    border-radius: 25px;
+}
+.imglatar{
+    background-color: var(--primarycolor);
+    position: absolute;
+    margin : 30px 0 0 30px;
+    border-radius: 25px;
+    width: 730px;
+    height: 495px;
+
+}
+.imglogin{
+    position: absolute;
+    top : 150px;
+    left: 150px;
+}
+
+
+
+/* Home*/
+.home{
+    background-color: var(--secondarycolor);
+    border-radius: 5px;
+    height: 350px;
+}
+.container{
+    margin-top: 100px;
+}
+/* Home-kiri */
+.home .heading{
+    font-family:var(--Amaticfont) ;
+    font-weight: 600;
+    font-size:  30px;;
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.home .heading span{
+    color: var(--font1color);
+}
+.imghome img{
+    height: 75px;
+    margin-left: 15px;
+    
+}
+/* Home-tengah */
+.l1{
+    background-color: var(--headingcolor);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+}
+.l1 img{
+    height: 60%;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 100px
+    ;
+}
+.home .subheading{
+    margin-top: -100px;
+    font-size: 0.6rem;
+
+}
+.home .subheading span{
+    color: var(--secondarycolor)!important;
+}
+
+    
+
+/* Home-kanan */
+.kanan{
+    margin-top: 90px;
+    font-family: var(--Suefont);
+    margin-left: 150px;
+}
+.kanan span{
+    color:var(--font1color);
+}
+.kanan .t1{
+    font-size: 2rem;
+}
+.kanan .t2{
+    margin-left: 15px;
+    font-size: 2rem;
+}
+.kanan .t3{
+    margin-left: -5px;
+    font-size: 2rem;
+}
+
+.brand{
+    background-color: var(--secondarycolor) !important;
+    border-radius: 5px;
+}
+.brand .subheading{
+    height: 50px;
+}
+/* Product*/
+.productheading .heading{
+    font-size: 2rem !important;
+}
+.brand{
+    font-family: var(--Amaticfont);
+}
+/*Contact*/
+.contact .heading{
+    text-decoration: underline;
+}
+.kanan1{
+    font-family: var(--Suefont);
+    font-size: 2rem;
+}
+.kanan1 .k1{
+    background-color: var(--headingcolor);
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+}
+.kanan1 .k2{
+    background-color: var(--headingcolor);
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+}
+.kanan1 .k3{
+    background-color: var(--headingcolor);
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+}
+.submit{
+    background-color: var(--secondarycolor);
+    border-radius: 10px;
+}
+
+/*table kategori*/
+.table {
+    width:95%;
+}
+.table tr{
+    height: 30px;
+}
+.table tr td {
+    padding: 5px 10px;
+}
+/*footer*/
+.footer{
+    background-color: #FF5DA4;
+}
+.b-footer{
+    color: black !important;   
+    text-decoration: none   ;
+}
+
+.loginpage{
+    margin-top: 100px ;
+}
+
+/*index & produk*/
+.search{
+    padding: 15px 0;
+    background-color: var(--backgrcolor);
+    text-align: center;
+}
+.search input[type=text]{
+    width: 60%;
+    padding : 10px;
+}
+.search input[type=submit]{
+    padding : 12px 15px;
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+    border: none;
+    cursor: pointer;
+}
+.box{
+    background-color: var(--backgrcolor);
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col-5{
+    width:  19%;
+    height: 100px;
+    margin: 6.5px;
+    float: left ;
+    box-sizing: border-box;
+}
+
+.col-5 .bx{
+    margin: 1px;
+    font-size: 3rem;
+    color: var(--secondarycolor);
+    
+}
+.box{
+    background-color: var(--backgrcolor)!important;
+    border: none !important;
+    
+}
+.col-4{
+    width:  24.3%;
+    height: 400px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: #F7A8C8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    float: left ;
+    box-sizing: border-box;
+
+}
+.col-4:hover{
+
+    box-shadow: 0 0 3px #999;
+}
+.col-4 img{
+    width: 80%;
+    height: 65%;
+}
+.nama{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-family: var(--Workfont);
+}
+.harga{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-family: var(--Workfont);
+}
+.harga:hover{
+    color: black;
+} 
+.nama:hover{
+    color: black;
+} 
+.col-4 .bx{
+    float: right;
+}
+.row .col-lg-6 {
+    text-align: left;
+}
+.col-lg-6{
+    font-size: 20px;
+}
+.col-lg-6 button{
+    float: right;
+}
+.col-2{
+    width: 50%;
+    min-height: 200px;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/*\detail-pesanan*/
+.d-pesanan{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.d-pesanan:hover{
+    color: black;
+}
+.beli{
+    cursor: pointer;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    color: black;
+    border-radius: 30px !important;
+}
+.beli:hover{
+    position: relative;
+    top: -3px;
+    width: 250px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.box .col-2{
+    text-align: justify;
+    border: none;
+}
+
+.submid-psn{
+    width: 50%;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, var(--secondarycolor),var(--primarycolor));
+    color: black;
+    border: 0;
+    outline: none;
+    border-radius: 30px !important;
+}
+.submid-psn:hover{
+    color:var(--font1color);
+}
+
+.section .container .box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding:15px;
+    box-sizing: border-box;
+    margin:15px 0;
+}
+
+#content{
+    background-color: white;
+    margin:150px 50px 100px 50px;
+    border-radius: 25px;
+}
+
